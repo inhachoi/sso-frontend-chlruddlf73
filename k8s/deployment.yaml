@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sso-frontend-sk-chen
+  name: chlruddlf73
   labels:
     name: assignment
 spec:
@@ -10,12 +10,12 @@ spec:
   selector:
     matchLabels:
       component: sso
-      student: sk-chen
+      student: chlruddlf73
   template:
     metadata:
       labels:
         component: sso
-        student: sk-chen
+        student: chlruddlf73
     spec:
       containers:
         - name: static

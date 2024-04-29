@@ -1,10 +1,10 @@
-/ Check your wise-paass DataCenter（sa, hz）first
+// Check your wise-paass DataCenter（sa, hz）first
 
 // sa center
 const ssoUri = 'https://portal-sso-ensaas.sa.wise-paas.com';
 const apiBase = 'https://api-sso-ensaas.sa.wise-paas.com';
 const redirectUri =
-  'https://sso-frontend-dave-lee-assignment-eks004.sa.wise-paas.com/index.html';
+  'https://sso-frontend-chlruddlf73-assignment-eks004.sa.wise-paas.com/index.html';
 
 // hz center
 /* const ssoUri =
@@ -12,7 +12,7 @@ const redirectUri =
 const apiBase =
   'https://api-sso-ensaas.hz.wise-paas.com.cn';
 const redirectUri =
-  'https://sso-frontend-dave-lee-assignment-eks006.hz.wise-paas.com.cn/index.html';
+  'https://sso-frontend-chlruddlf73-assignment-eks006.hz.wise-paas.com.cn/index.html';
  */
 $('#signInBtn').click(function () {
   window.location.href = ssoUri + '/home/sign-in?redirectUri=' + redirectUri;
